@@ -1,7 +1,9 @@
 <h1>ActionCam</h1>
 
 This is a proof of concept application that provides worry free recording for long recording durations.
-The app only works for android versions that support the camer2 api. Usually Android version 6+ will work the best.
+Some applications you can use this app for: vehicle dashcam, security camera, adventure camera, and etc
+<br />
+The app only works for android versions that support the camer2 api. Usually Android version 6+ will work flawlessly.
 
 <h2>How to use:</h2>
 
