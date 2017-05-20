@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_header_record">
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_recordTime"
+            android:summary="@string/pref_description_recordTime"
+            android:inputType="number"
+            android:key="record_time"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_recordTime" />
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_number_videos"
+            android:summary="@string/pref_description_number_videos"
+            android:inputType="number"
+            android:key="max_files"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_number_videos" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

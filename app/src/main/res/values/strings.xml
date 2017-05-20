@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ActionCam</string>
+    <string name="video_button">Record Button</string>
+    <string name="settings_button">Settings Button</string>
+    <string name="title_activity_settings">Settings</string>
+    
+    <!-- Fragment Title Strings -->
+    <string name="title_preferences">App Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Record settings -->
+    <string name="pref_header_record">Record Settings</string>
+
+    <string name="pref_title_recordTime">Video Record Time</string>
+    <string name="pref_default_recordTime">120</string>
+    <string name="pref_description_recordTime">
+        The recording time for each video in seconds
+    </string>
+
+    <string name="pref_title_number_videos">Number of Videos</string>
+    <string name="pref_description_number_videos">
+        The number of videos that will be recorded on loop. WARNING: Changing number of videos less
+        than current will delete all existing videos!
+    </string>
+    <string name="pref_default_number_videos">10</string>
+
+
+</resources>

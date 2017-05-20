@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.victorsg.actioncam.Camera2VideoImage">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/btnVideoOnline"
+        android:contentDescription="@string/video_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#80FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:src="@mipmap/btn_video_online"/>
+
+    <ImageButton
+        android:id="@+id/btnAppSettings"
+        android:contentDescription="@string/settings_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#80FFFFFF"
+        android:src="@mipmap/btn_settings"
+        android:layout_marginEnd="30dp"
+        android:scaleType="fitCenter"
+        android:layout_alignBottom="@+id/btnVideoOnline"
+        android:layout_alignParentEnd="true" />
+
+    <Chronometer
+        android:id="@+id/chronometer_recordTime"
+        android:visibility="invisible"
+        android:textColor="#ff0000"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnVideoOnline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>
